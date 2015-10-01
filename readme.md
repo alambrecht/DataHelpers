@@ -38,7 +38,7 @@ var object = xmlString.DeserializeFromXML();
 sqlConnection.SqlBulkCopy(listOfObjects);
 //Using Entity Context
 ((SqlConnection)context.Database.Connection).SqlBulkCopy(listOfObjects);
-//Override optional tableName forthe name of the database table
+//Override optional tableName for the name of the database table
 ```
 
 ##### Shuffle a collection
